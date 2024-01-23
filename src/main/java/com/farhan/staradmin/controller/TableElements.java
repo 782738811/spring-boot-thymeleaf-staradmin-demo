@@ -14,4 +14,14 @@ public class TableElements {
         return new ModelMap();
     }
 
+    @GetMapping(value = "form-elements")
+    public ModelMap mmFormElements() {
+        return new ModelMap();
+    }
+
+    @GetMapping(value = "dashboard")
+    public ModelMap mmDashboard() {
+        return new ModelMap();
+    }
+
 }
